@@ -184,3 +184,69 @@ NameError: name 'j1' is not defined. Did you mean: 'p1'?
 >>> h2
 [1, 2, 3]
 >>>
+
+
+
+
+
+#video - 15 behind the scene of loops
+
+Python 3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+>>> f = open('chai.py')
+>>> iter(f) is f
+True
+>>> iter(f) is f.__iter__()
+True
+>>> myNewList = [1,2,3]
+>>> iter(myNewList) is myNewList
+False
+>>> 
+>>> 
+>>> D = {'a':1, "b":2}
+>>> for key in D.keys():
+... print(key)
+  File "<stdin>", line 2
+    print(key)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for key in D.keys():
+...     print(key)
+...
+a
+b
+>>> I = iter(D)
+>>> I
+<dict_keyiterator object at 0x000002710FB91170>
+>>> next(I)
+'a'
+>>> next(I)
+'b'
+>>> next(I)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> 
+>>> 
+>>> 
+>>> range(5)
+range(0, 5)
+>>> R = range(5)
+>>> R
+range(0, 5)
+>>> I = iter(R)
+>>> next(I)
+0
+>>> next(I)
+1
+>>> next(I)
+2
+>>> next(I)
+3
+>>> next(I)
+4
+>>> next(I)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
