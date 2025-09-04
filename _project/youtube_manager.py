@@ -32,26 +32,36 @@ def add_video(videos):
 
 def update_video(videos):
     list_all_videos(videos)
-    index = int(input("Enter the video number to update"))
+    index = int(input("Enter the video number to update: "))
     if 1 <= index <= len(videos):
-        name = input("Enter the new video name")
-        time = input("Enter the new video time")
+        name = input("Enter the new video name: ")
+        time = input("Enter the new video time: ")
         videos[index-1] = {'name': name, "time": time}
         save_data_helper(videos)
+        print('\n')
+        print("*" * 70)
+        print("Successfully updated!!")
+        print("*" * 70)
+        print('\n')
     else:
         print("invalid index selected")
 
 def delete_video(videos):
     list_all_videos(videos)
-    index = int(input("Enter the video number to be deleted"))
+    index = int(input("Enter the video number to be deleted: "))
     if 1 <= index <= len(videos):
         del videos[index-1]
         save_data_helper(videos)
+        print('\n')
+        print("*" * 70)
+        print("Successfully Deleted!!")
+        print("*" * 70)
+        print('\n')
     else:
         print("Invalid video index selected")
 
 def main():
-    videos = load_data()
+    videos = []
     while True:
         print("\n Youtube Manager | choose an option")
         print("1. List all youtube videos ")
