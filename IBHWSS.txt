@@ -1,0 +1,6 @@
+I - Prodject idea
+B - What are we building? step 
+H - How will the program work (step-by-step)
+W - what concepts we use to solve problem
+S - Pseudo code
+S - Stratching expened your project
