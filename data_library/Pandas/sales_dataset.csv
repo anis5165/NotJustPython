@@ -1,0 +1,11 @@
+OrderID,Customer,Product,Category,Quantity,Price,OrderDate
+1001,Alice,Phone,Electronics,1,699,2024-01-15
+1002,Bob,Laptop,Electronics,1,1200,2024-01-12
+1003,Charlie,Book,Stationery,3,15,2024-02-02
+1004,Alice,Headphones,Electronics,2,199,2024-02-20
+1005,Eva,Pen,Stationery,10,2,2024-03-01
+1006,David,Tablet,Electronics,1,450,2024-03-05
+1007,Bob,Notebook,Stationery,5,5,2024-03-12
+1008,Fiona,Camera,Electronics,1,850,2024-03-18
+1009,George,Book,Stationery,2,12,2024-04-01
+1010,Eva,Phone,Electronics,1,699,2024-04-07
