@@ -1,0 +1,26 @@
+Name,Gender,City,Passed
+Alice,Female,Houston,Yes
+Bob,Female,Phoenix,Yes
+Charlie,Female,Phoenix,No
+David,Male,Houston,No
+Eva,Male,Los Angeles,No
+Frank,Male,Dallas,No
+Grace,Female,Los Angeles,Yes
+Hannah,Male,Los Angeles,No
+Ian,Female,Dallas,No
+Jack,Male,New York,Yes
+Karen,Male,Phoenix,Yes
+Leo,Male,San Antonio,Yes
+Mona,Female,San Diego,No
+Nina,Female,San Antonio,No
+Oscar,Male,Chicago,Yes
+Paul,Female,Phoenix,No
+Quinn,Female,New York,No
+Rose,Female,Chicago,Yes
+Sam,Female,San Antonio,Yes
+Tina,Male,Dallas,No
+Uma,Male,San Diego,No
+Victor,Male,San Antonio,No
+Wendy,Male,Chicago,Yes
+Xander,Male,Houston,Yes
+Yara,Male,New York,Yes
